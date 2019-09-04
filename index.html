@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+	<style type="text/css">
+		body{background:yellow;}
+		div{width:100px; height:100px; background: red;}
+		#mysquare{margin-left: 200px; margin-top: 500px;}
+	</style>
+</head>
+<body>
+	<div id="mysquare">강민수.</div>
+	<script type="text/javascript">
+		mysquare.onclick = function(){
+		var a = Math.floor(Math.random()*1000);
+		var b = Math.floor(Math.random()*1000);
+		mysquare.style.marginLeft = a + "px";
+		mysquare.style.marginTop = b + "px";
+	};
+    </script>
+</body>
